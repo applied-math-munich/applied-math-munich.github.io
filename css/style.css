@@ -54,14 +54,14 @@ body {
   left: 50%;
   width: 55px;
   height: 5px;
-  background-color: #ff2953;
+  background-color: #005293;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 
 /*header section*/
 .hero_area {
-  height: 100vh;
+  height: 80vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -69,7 +69,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url(../images/hero-bg.jpg);
+  background-image: url(../images/Munich_skyline.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -120,7 +120,7 @@ body {
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active a::after, .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item:hover a::after {
   display: block;
-  background-color: #ff2953;
+  background-color: #005293;
 }
 
 a,
@@ -295,7 +295,7 @@ a:focus {
 }
 
 .us_section {
-  background-image: url(../images/us-bg.jpg);
+  background-image: url(../images/TUM-FMI.jpeg);
   background-size: cover;
   background-attachment: fixed;
   color: #ffffff;
@@ -504,7 +504,7 @@ a:focus {
   outline: none;
   border: none;
   color: #ffffff;
-  background: #ff2953;
+  background: #0065bd;
   margin: 45px 0 0 auto;
   text-transform: uppercase;
 }
