@@ -1,1 +1,0 @@
-# applied-math-munich.github.io
