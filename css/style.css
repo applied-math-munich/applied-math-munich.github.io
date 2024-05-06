@@ -586,9 +586,24 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
 }
-
+/*
 .contact_section .img-box img {
   width: 100%;
+}
+*/
+
+.contact_section .img-box {
+  width: 80%;
+  height: auto; /* or any other value that works for you */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .contact_section .form_container {
