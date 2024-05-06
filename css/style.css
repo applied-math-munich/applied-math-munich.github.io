@@ -467,6 +467,99 @@ a:focus {
   font-weight: bold;
 }
 
+
+
+
+.events_section {
+  background-color: #27223f;
+  color: #ffffff;
+}
+
+.events_section .event-box {
+  background-color: #3a3550;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.events_section .event-box h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.events_section .event-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.events_section .event-box ul li {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.events_section .event-box ul li .talk-date {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.events_section .event-box ul li .talk-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.events_section .event-box ul li .talk-title .speaker-name {
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.events_section .event-box ul li .talk-title .talk-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+.events_section .event-box ul li .talk-details {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  background-color: #3a3550;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.events_section .event-box ul li .talk-details {
+  display: none;
+  margin-top: 10px;
+}
+
+.events_section .event-box ul li .read-more-btn {
+  background-color: #5E94D4;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.events_section .event-box ul li .read-more-btn:hover {
+  background-color: #3468a8;
+}
+
+
 .heathy_section {
   background-image: url(../images/healthy-bg.jpg);
   background-size: cover;
@@ -715,19 +808,22 @@ a:focus {
 
 /* footer section*/
 .footer_section {
-  background-color: #eaedf1;
+  background-color: #343a40;
   padding: 20px;
   font-weight: 500;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+  
 }
 
+
 .footer_section p {
-  color: #292929;
+  color: #fff;
   margin: 0;
   text-align: center;
 }
 
 .footer_section a {
-  color: #292929;
+  color: #fff;
 }
 
 /* end footer section*/
