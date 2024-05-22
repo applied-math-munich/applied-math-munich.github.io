@@ -547,6 +547,24 @@ a:focus {
   z-index: 1;
 }
 
+.talk-details p:first-child {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.talk-details p:nth-child(2) {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.talk-details p:last-child {
+  font-weight: bold;
+  font-size: 18px;
+}
+
 .events_section .event-box ul li .talk-details {
   display: none;
   margin-top: 10px;
