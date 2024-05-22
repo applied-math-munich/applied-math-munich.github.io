@@ -203,6 +203,27 @@ body {
   background-attachment: fixed;
 }
 
+.text_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.text_wrapper h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .text_wrapper h1 {
+    font-size: 32px;
+  }
+}
+
 .sub_page .hero_area {
   height: auto;
 }
