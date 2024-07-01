@@ -34,7 +34,7 @@ body {
 }
 
 .navbar-brand .logo {
-  height: 70px; /* adjust the height of the logo */
+  height: 75px; /* adjust the height of the logo */
   width: auto; /* maintain the aspect ratio of the logo */
   margin-right: 10px; /* add some space between the logo and the navbar links */
   background-color: transparent; /* set the background color to transparent */
