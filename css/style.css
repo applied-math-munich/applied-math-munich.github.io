@@ -53,7 +53,7 @@ body {
 }
 
 .logo {
-  height: 190px; /* adjust the height of the logo */
+  height: 160px; /* adjust the height of the logo */
   width: auto; /* maintain the aspect ratio of the logo */
   margin-bottom: 20px; /* add some space between the logo and the navbar */
 }
