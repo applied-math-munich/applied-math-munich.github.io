@@ -4,12 +4,36 @@ body {
   background-color: #ffffff;
 }
 
-/* 
-.big_text_section h1 {
+.big_text_section {
+  background-image: url(../images/munich-skyline.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  height: 120px; /* adjust the height of the logo */
+  width: auto; /* maintain the aspect ratio of the logo */
   position: absolute;
-  top: 50%;
+  top: -150px; /* adjust the position of the logo above the text */
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
+}
+
+.big_text_section h1 {
   text-align: center;
   width: 100%;
   font-size: 3em;
@@ -25,39 +49,13 @@ body {
 .big_text_section h1::after {
   content: "";
   display: block;
-  width: 55px;  adjust the width to make the underline shorter 
-  height: 5px;  adjust the height to make the underline thicker 
+  width: 55px; /* adjust the width to make the underline shorter */
+  height: 5px; /* adjust the height to make the underline thicker */
   background-color: #5E94D4;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
 }
- */
-
-.big_text_section {
-  background-image: url(../images/munich-skyline.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.text_wrapper {
-  position: relative;
-  z-index: 1;
-}
-
-.logo {
-  height: 160px; /* adjust the height of the logo */
-  width: auto; /* maintain the aspect ratio of the logo */
-  margin-bottom: 20px; /* add some space between the logo and the navbar */
-}
-
 
 /* No need to change the typing keyframes */
 @keyframes typing {
