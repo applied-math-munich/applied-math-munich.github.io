@@ -4,7 +4,7 @@ body {
   background-color: #ffffff;
 }
 
-
+/* 
 .big_text_section h1 {
   position: absolute;
   top: 50%;
@@ -25,20 +25,39 @@ body {
 .big_text_section h1::after {
   content: "";
   display: block;
-  width: 55px; /* adjust the width to make the underline shorter */
-  height: 5px; /* adjust the height to make the underline thicker */
+  width: 55px;  adjust the width to make the underline shorter 
+  height: 5px;  adjust the height to make the underline thicker 
   background-color: #5E94D4;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
 }
+ */
 
-.navbar-brand .logo {
-  height: 75px; /* adjust the height of the logo */
-  width: auto; /* maintain the aspect ratio of the logo */
-  margin-right: 10px; /* add some space between the logo and the navbar links */
-  background-color: transparent; /* set the background color to transparent */
+.big_text_section {
+  background-image: url(../images/munich-skyline.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
+
+.text_wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  height: 190px; /* adjust the height of the logo */
+  width: auto; /* maintain the aspect ratio of the logo */
+  margin-bottom: 20px; /* add some space between the logo and the navbar */
+}
+
 
 /* No need to change the typing keyframes */
 @keyframes typing {
