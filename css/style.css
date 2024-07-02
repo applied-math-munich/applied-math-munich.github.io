@@ -25,10 +25,10 @@ body {
 .logo {
   display: block;
   margin: 0 auto;
-  height: 120px; /* adjust the height of the logo */
+  height: 150px; /* adjust the height of the logo */
   width: auto; /* maintain the aspect ratio of the logo */
   position: absolute;
-  top: -150px; /* adjust the position of the logo above the text */
+  top: -160px; /* adjust the position of the logo above the text */
   left: 50%;
   transform: translateX(-50%);
 }
