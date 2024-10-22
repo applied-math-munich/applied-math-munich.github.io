@@ -1,0 +1,9 @@
+{
+    "name": "Applied Math Munich Student Club",
+    "short_name": "AMMSC",
+    "theme_color": "#27223f",
+    "background_color": "#27223f",
+    "display": "standalone",
+    "start_url": "/"
+  }
+  
