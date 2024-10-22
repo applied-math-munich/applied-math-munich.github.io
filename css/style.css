@@ -598,13 +598,13 @@ a:focus {
 }
 
 .talk-details p:nth-child(2) {
-  font-weight: bold;
+  font-weight: normal;
   font-size: 18px;
   margin-bottom: 10px;
 }
 
 .talk-details p:last-child {
-  font-weight: bold;
+  font-weight: normal;
   font-size: 18px;
 }
 
