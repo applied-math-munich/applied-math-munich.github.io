@@ -1,8 +1,21 @@
+
+
 body {
   font-family: 'Poppins', sans-serif;
   color: #000000;
   background-color: #ffffff;
 }
+
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.5rem;
+  }
+}
+
 
 .big_text_section {
   background-image: url(../images/munich-skyline.jpg);
@@ -57,6 +70,15 @@ body {
   margin-right: auto;
 }
 
+@media (max-width: 767px) {
+  .big_text_section h1 {
+    font-size: 2em;
+    white-space: normal; /* Allow wrapping */
+    border-right: none; /* Remove cursor effect */
+  }
+}
+
+
 /* No need to change the typing keyframes */
 @keyframes typing {
   from { width: 0; }
@@ -79,6 +101,8 @@ body {
   color: #fff;
 }
 
+
+
 .what_we_do_container {
   display: flex;
   flex-wrap: wrap; /* Add this line to allow the boxes to wrap to the next row */
@@ -91,12 +115,14 @@ body {
   margin-bottom: 20px; /* Add some margin bottom to create space between the boxes */
 }
 
-/* Add a media query to adjust the layout for mobile devices */
 @media (max-width: 767px) {
   .what_we_do_container .box {
-    width: 100%; /* Make the boxes full-width on mobile devices */
+    width: 100%;
+    margin-bottom: 15px; /* Smaller gap between boxes */
   }
 }
+
+
 
 .what_we_do_container .box .img-box {
   height: 200px;
@@ -151,6 +177,16 @@ body {
   line-height: 1.5;
 }
 
+
+@media (max-width: 767px) {
+  .what_we_do_container .box {
+    width: 100%; /* Full width for mobile */
+  }
+
+  .contact_section .form_container {
+    padding: 30px 10px; /* Reduce padding */
+  }
+}
 
 
 
@@ -224,6 +260,19 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+
+
+@media (max-width: 767px) {
+  .hero_area {
+    height: 60vh; /* Reduce height for mobile */
+    background-attachment: scroll; /* Avoid fixed attachment for smoother scroll */
+  }
+
+  .text_wrapper h1 {
+    font-size: 24px; /* Smaller heading */
+  }
+}
+
 
 .text_wrapper {
   display: flex;
@@ -370,6 +419,22 @@ a:focus {
   background-image: url(../images/menu.png);
   background-size: 55px;
 }
+
+@media (max-width: 767px) {
+  .custom_nav-container {
+    padding: 10px;
+  }
+
+  .custom_nav-container .navbar-nav .nav-item {
+    margin: 5px 15px;
+    font-size: 14px;
+  }
+
+  .navbar-brand span {
+    font-size: 18px; /* Smaller logo text */
+  }
+}
+
 
 /*end header section*/
 .slider_section {
@@ -520,6 +585,17 @@ a:focus {
 }
 
 
+@media (max-width: 767px) {
+  .layout_padding, .layout_padding2, .layout_padding-bottom, .layout_padding-top {
+    padding: 20px 0;
+  }
+
+  .what_we_do_section {
+    padding: 60px 0;
+  }
+}
+
+
 
 
 .events_section {
@@ -627,6 +703,17 @@ a:focus {
 
 .events_section .event-box ul li .read-more-btn:hover {
   background-color: #3468a8;
+}
+
+
+@media (max-width: 767px) {
+  .events_section .event-box {
+    padding: 15px;
+  }
+
+  .events_section h3 {
+    font-size: 18px;
+  }
 }
 
 
@@ -954,6 +1041,7 @@ a:focus {
 
 .footer_section a {
   color: #fff;
+
 }
 
 /* end footer section*/
